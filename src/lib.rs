@@ -9,7 +9,7 @@ pub struct Config {
 impl Config {
     pub fn new(args: &[String]) -> Result<Config, &str> {
         if args.len() < 3 {
-            return Err("not enough arguments");
+            return Err("not enough arguments, need two where 1st arg is pattern to search from and 2nd is filename");
         }
         return Ok(Config {
             filename: args[2].clone(),
