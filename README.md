@@ -1,4 +1,4 @@
-# Get your minigrep here, 10x guarented stupider than gnu/grep
+# Get your minigrep here, 10x guarenteed stupider than gnu/grep
 
 ## How To Use
 
